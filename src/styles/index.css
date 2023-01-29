@@ -1,5 +1,5 @@
 :root {
-
+    --main-text-color: black;
 }
 
 html, body, main {
@@ -9,7 +9,6 @@ html, body, main {
 
 /* header/navbar */
 header {
-    background-color: red;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -26,33 +25,30 @@ nav > ul {
     padding: 0;
     width: max-content;
     height: 4rem;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /* padding:  */
 }
 
 .navItem {
-    height: 100%;
-    /* padding: 0 1rem; */
+    height: 80%;
     width: max-content;
     list-style: none;
-    background-color: green;
 }
 
 .navItem > a {
     display: inline-block;
-    /* width: max-content; */
     height: 100%;
-    background-color: blue;
-    line-height: 4rem;
+    line-height: calc(4rem * 0.8);
     padding: 0 1rem;
-    border: 2px solid rgba(255, 255, 255, 0);
+    border: 3px solid #00000000;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-size: 1.2rem;
 }
 
-.navItem:hover {
+.navItem:hover .navAnchor {
     cursor: pointer;
     border-bottom: 3px solid black;
 }
