@@ -1,0 +1,55 @@
+:root {
+    --main-text-color: black;
+}
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+}
+
+/* header/navbar */
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+nav {
+    margin-right: 1rem;
+}
+
+nav > ul {
+    padding: 0;
+    width: max-content;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navItem {
+    height: 80%;
+    width: max-content;
+    list-style: none;
+}
+
+.navItem > a {
+    display: inline-block;
+    height: 100%;
+    line-height: calc(4rem * 0.8);
+    padding: 0 1rem;
+    border: 3px solid #00000000;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-size: 1.2rem;
+}
+
+.navItem:hover .navAnchor {
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+
