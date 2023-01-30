@@ -1,11 +1,11 @@
 :root {
-    --main-text-color: black;
-    --dark: black;
+    --main-text-color: #2a2a2a;
+    --dark: #2a2a2a;
 
     font-family: 'Montserrat', sans-serif;
 }
 
-html, body, main {
+html, body, main, * {
     margin: 0;
     padding: 0;
 }
