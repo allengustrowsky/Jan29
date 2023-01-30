@@ -1,6 +1,8 @@
 :root {
     --main-text-color: black;
     --dark: black;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 html, body, main {
@@ -46,7 +48,7 @@ nav > ul {
     border: 3px solid #00000000;
     text-decoration: none;
     color: var(--main-text-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .navItem:hover .navAnchor {
