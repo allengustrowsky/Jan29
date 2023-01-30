@@ -12,6 +12,10 @@ html, body, main, * {
 
 /* header/navbar */
 header {
+    /* position: absolute; */
+    position: sticky;
+    top: 0;
+    /* position:  */
     text-align: center;
     display: flex;
     flex-direction: row;

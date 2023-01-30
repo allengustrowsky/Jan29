@@ -1,4 +1,1 @@
-- navbar
 - wireframing
-- fonts
-- basic project setup
