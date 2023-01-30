@@ -22,13 +22,13 @@ section {
 }
 
 section div div {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 5px;
     height: 10vw;
     width: 10vw;
 
-    justify-content: center;
     text-align: center;
     font-size: 1.5vw;
 }

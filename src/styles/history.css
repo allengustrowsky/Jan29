@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: calc(100vh - 5.9rem);
+    background-image: url("../../assets/soccer-player.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    background-color: rgb(251, 193, 193);
+    height: fit-content;
+    width: 100%;
+    padding: 30px;
+    opacity: .8;
+
+    text-align: center;
+}
