@@ -4,7 +4,7 @@
 }
 
 main {
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 5.9rem);
     background-image: url("../../assets/soccer-award.jpg");
     background-repeat: no-repeat;
     background-position: center;
